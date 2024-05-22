@@ -1,31 +1,45 @@
 package com.example.proyecto2;
 
 import java.util.Map;
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.*;
-import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
 
 public class Pelicula {
     private String titulo;
+    private String categoria;
+    private String categoria2;
+    private int critica;
+    private String tipo;
     private double[] caracteristicas;
 
     // Constructor
-    public Pelicula(String titulo, double[] caracteristicas) {
+    public Pelicula(String titulo, String categoria, String categoria2, int critica, String tipo, double[] caracteristicas) {
         this.titulo = titulo;
+        this.categoria = categoria;
+        this.categoria2 = categoria2;
+        this.critica = critica;
+        this.tipo = tipo;
         this.caracteristicas = caracteristicas;
     }
 
     // Getters
     public String getTitulo() {
         return titulo;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public String getCategoria2() {
+        return categoria2;
+    }
+
+    public int getCritica() {
+        return critica;
+    }
+
+    public String getTipo() {
+        return tipo;
     }
 
     public double[] getCaracteristicas() {
@@ -44,10 +58,9 @@ public class Pelicula {
 
     // Método para crear un vector a partir de los mapas dados fields y weights
     public static double[] makeVector(Map<String, Object> fields, Map<String, Object> weights) {
-        double[] vector = new double[fields.size()];
-
+        double[] vector = new double[weights.size()];
         int count = 0;
-        for (String field : fields.keySet()) {
+        for (String field : weights.keySet()) {
             if (fields.get(field) instanceof Number) {
                 vector[count] = (double) fields.get(field) * (double) weights.get(field);
             } else if (fields.get(field).getClass() == String.class) {
