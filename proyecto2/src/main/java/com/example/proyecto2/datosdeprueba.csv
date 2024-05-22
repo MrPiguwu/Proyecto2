@@ -1,4 +1,100 @@
-Titulo,Categoria,Critica,Tipo
-Inception,Ciencia Ficción,9,live action
-Toy Story,Animación,8,animada
-Titanic,Romance,7,live action
+Titulo,Categoria,Categoria2,Critica,Tipo
+Inception,Ciencia Ficción,Thriller,9,live action
+Toy Story,Animacion,Familia,8,animada
+Titanic,Romance,Drama,7,live action
+The Dark Knight,Acción,Crimen,9,live action
+Finding Nemo,Animacion,Aventura,8,animada
+Forrest Gump,Drama,Comedia,8,live action
+The Matrix,Ciencia Ficción,Acción,9,live action
+The Lion King,Animacion,Aventura,9,animada
+Pulp Fiction,Crimen,Drama,8,live action
+Frozen,Animacion,Familia,7,animada
+Star Wars: A New Hope,Ciencia Ficción,Aventura,9,live action
+Beauty and the Beast,Animacion,Familia,8,animada
+Jurassic Park,Aventura,Ciencia Ficción,8,live action
+Shrek,Animacion,Comedia,8,animada
+The Godfather,Crimen,Drama,9,live action
+Monsters Inc.,Animacion,Familia,8,animada
+Gladiator,Aventura,Drama,8,live action
+The Incredibles,Animacion,Acción,8,animada
+Braveheart,Drama,Historia,7,live action
+Up,Animacion,Aventura,9,animada
+Avatar,Ciencia Ficción,Aventura,8,live action
+Wall-E,Animacion,Ciencia Ficción,9,animada
+The Shawshank Redemption,Drama,Crimen,9,live action
+Coco,Animacion,Familia,8,animada
+The Avengers,Acción,Ciencia Ficción,8,live action
+Inside Out,Animacion,Familia,9,animada
+Fight Club,Drama,Thriller,8,live action
+Zootopia,Animacion,Familia,8,animada
+The Lord of the Rings: The Fellowship of the Ring,Fantasía,Aventura,9,live action
+Moana,Animacion,Familia,8,animada
+Saving Private Ryan,Drama,Historia,9,live action
+Despicable Me,Animacion,Comedia,7,animada
+Harry Potter and the Sorcerer's Stone,Fantasía,Aventura,8,live action
+Kung Fu Panda,Animacion,Comedia,8,animada
+Pirates of the Caribbean: The Curse of the Black Pearl,Aventura,Fantasía,8,live action
+Ratatouille,Animacion,Familia,8,animada
+The Lion King (2019),Animacion,Aventura,7,animada
+Iron Man,Acción,Ciencia Ficción,8,live action
+The Secret Life of Pets,Animacion,Familia,7,animada
+Spider-Man: Into the Spider-Verse,Animacion,Acción,9,animada
+The Hobbit: An Unexpected Journey,Fantasía,Aventura,7,live action
+Madagascar,Animacion,Comedia,8,animada
+Interstellar,Ciencia Ficción,Drama,9,live action
+Tangled,Animacion,Familia,8,animada
+The Godfather Part II,Crimen,Drama,9,live action
+Big Hero 6,Animacion,Acción,8,animada
+The Silence of the Lambs,Crimen,Thriller,9,live action
+Wreck-It Ralph,Animacion,Familia,8,animada
+Goodfellas,Crimen,Drama,9,live action
+Schindler's List,Drama,Historia,9,live action
+Toy Story 3,Animacion,Familia,9,animada
+The Lord of the Rings: The Two Towers,Fantasía,Aventura,9,live action
+Finding Dory,Animacion,Familia,7,animada
+The Departed,Crimen,Thriller,8,live action
+The Empire Strikes Back,Ciencia Ficción,Aventura,9,live action
+The Lion King (2019),Animacion,Familia,8,animada
+Django Unchained,Crimen,Drama,8,live action
+Frozen II,Animacion,Familia,7,animada
+The Lord of the Rings: The Return of the King,Fantasía,Aventura,9,live action
+Ralph Breaks the Internet,Animacion,Familia,8,animada
+The Wolf of Wall Street,Crimen,Comedia,8,live action
+Cinderella,Animacion,Familia,7,animada
+The Hateful Eight,Crimen,Drama,7,live action
+The Princess and the Frog,Animacion,Familia,7,animada
+Blade Runner,Ciencia Ficción,Thriller,8,live action
+Aladdin,Animacion,Familia,8,animada
+Blade Runner 2049,Ciencia Ficción,Thriller,8,live action
+Brave,Animacion,Familia,7,animada
+Guardians of the Galaxy,Ciencia Ficción,Aventura,8,live action
+Finding Nemo,Animacion,Familia,9,animada
+Guardians of the Galaxy Vol. 2,Ciencia Ficción,Aventura,8,live action
+Inside Out,Animacion,Familia,9,animada
+Mad Max: Fury Road,Ciencia Ficción,Acción,8,live action
+Zootopia,Animacion,Familia,8,animada
+Doctor Strange,Ciencia Ficción,Fantasía,8,live action
+The Incredibles 2,Animacion,Acción,8,animada
+Avengers: Infinity War,Acción,Ciencia Ficción,9,live action
+Monsters University,Animacion,Familia,8,animada
+Black Panther,Acción,Ciencia Ficción,8,live action
+Ratatouille,Animacion,Familia,9,animada
+Thor: Ragnarok,Acción,Ciencia Ficción,8,live action
+The Good Dinosaur,Animacion,Familia,7,animada
+Iron Man 3,Acción,Ciencia Ficción,7,live action
+WALL-E,Animacion,Ciencia Ficción,9,animada
+The Amazing Spider-Man,Acción,Ciencia Ficción,7,live action
+Finding Dory,Animacion,Familia,7,animada
+Captain America: Civil War,Acción,Ciencia Ficción,8,live action
+The Secret Life of Pets,Animacion,Familia,7,animada
+Spider-Man: Homecoming,Acción,Ciencia Ficción,8,live action
+Shrek 2,Animacion,Comedia,8,animada
+Ant-Man,Acción,Ciencia Ficción,7,live action
+The Little Mermaid,Animacion,Familia,8,animada
+Avengers: Endgame,Acción,Ciencia Ficción,9,live action
+Beauty and the Beast,Animacion,Familia,9,animada
+Deadpool,Acción,Comedia,8,live action
+Moana,Animacion,Familia,9,animada
+X-Men: Days of Future Past,Acción,Ciencia Ficción,8,live action
+Despicable Me 2,Animacion,Comedia,7,animada
+Captain Marvel,Acción,Ciencia Ficción,7,live action
