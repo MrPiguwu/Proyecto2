@@ -16,50 +16,40 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-class Grafo<T> {
-    private int numVertices;
-    private Map<T, LinkedList<T>> adjList;
 
-    public Map<T, LinkedList<T>> getAdjList() {
+
+import java.util.*;
+
+public class Grafo<T> {
+    private Map<T, List<T>> adjList;
+
+    // Constructor
+    public Grafo(List<T> vertices) {
+        adjList = new HashMap<>();
+        for (T vertex : vertices) {
+            adjList.put(vertex, new ArrayList<>());
+        }
+    }
+
+    // Añadir una arista
+    public void addEdge(T src, T dest) {
+        adjList.get(src).add(dest);
+        adjList.get(dest).add(src); // Grafo no dirigido
+    }
+
+    // Obtener la lista de adyacencia
+    public Map<T, List<T>> getAdjList() {
         return adjList;
     }
 
-    // Constructor
-    Grafo(List<T> vertices) {
-        this.numVertices = vertices.size();
-        adjList = new HashMap<>();
-
-        // Crea una nueva lista para cada vértice de tal manera que se puedan almacenar nodos adyacentes
-        for (T vertice : vertices) {
-            adjList.put(vertice, new LinkedList<>());
-        }
-    }
-
-    // Agrega una arista a un grafo no dirigido
-    void addEdge(T src, T dest) {
-        if (!adjList.containsKey(src)) {
-            adjList.put(src, new LinkedList<>());
-        }
-        if (!adjList.containsKey(dest)) {
-            adjList.put(dest, new LinkedList<>());
-        }
-
-        // Agrega una arista de src a dest.
-        adjList.get(src).add(dest);
-
-        // Dado que el grafo es no dirigido, agrega una arista de dest a src también
-        adjList.get(dest).add(src);
-    }
-
-    // Una función de utilidad para imprimir la representación de la lista de adyacencia del grafo
-    void printGraph() {
-        for (T v : adjList.keySet()) {
-            System.out.println("Lista de adyacencia del vértice " + v);
-            System.out.print("head");
-            for (T pCrawl : adjList.get(v)) {
-                System.out.print(" -> " + pCrawl);
+    // Imprimir el grafo
+    public void printGraph() {
+        for (T vertex : adjList.keySet()) {
+            System.out.print(vertex.toString() + ": ");
+            for (T neighbor : adjList.get(vertex)) {
+                System.out.print(neighbor.toString() + " ");
             }
-            System.out.println("\n");
+            System.out.println();
         }
     }
 }
